@@ -18,7 +18,7 @@
     <version>1.0</version>
 
     <build>
-        <finalName>gprofiler</finalName>
+        <finalName>gProfiler</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.felix</groupId>
