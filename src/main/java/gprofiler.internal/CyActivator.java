@@ -19,8 +19,5 @@ public class CyActivator extends AbstractCyActivator {
         CySwingAppAdapter adapter = getService(bc,CySwingAppAdapter.class);
         OpenBrowser openBrowserService = getService(bc,OpenBrowser.class);
         SynchronousTaskManager<?> syncTaskManager = getService(bc, SynchronousTaskManager.class);
-
-        BingoPluginAction bingoPluginAction = new BingoPluginAction(adapter, openBrowserService, syncTaskManager);
-        registerService(bc,bingoPluginAction, CyAction.class, new Properties());
     }
 }
