@@ -18,3 +18,5 @@
 /.project
 /.classpath
 /.settings
+.idea/
+gprofiler-impl.iml
