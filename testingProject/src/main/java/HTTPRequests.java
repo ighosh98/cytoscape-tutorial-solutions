@@ -1,10 +1,8 @@
 package gprofiler.internal.HTTPRequests;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import org.json.simple.JSONValue;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -46,10 +44,7 @@ public class HTTPRequests {
         urlConverter.append(this.basicURL);
         urlConverter.append(endpoint);
         String url = urlConverter.toString();
-        Gson gson = new Gson();
-        Type gsonType = new TypeToken<HashMap>(){}.getType();
-        String jsonBody = gson.toJson(parameters,gsonType);
-
+        String jsonBody = JSONValue.toJSONString(parameters);
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
                 .header("Content-Type","application/json")
