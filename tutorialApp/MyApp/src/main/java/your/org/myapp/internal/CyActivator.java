@@ -1,7 +1,13 @@
 package your.org.myapp.internal;
 
+import org.cytoscape.application.CyApplicationManager;
 import org.cytoscape.service.util.AbstractCyActivator;
+import org.cytoscape.work.ServiceProperties;
+import org.cytoscape.work.TaskFactory;
 import org.osgi.framework.BundleContext;
+import your.org.myapp.internal.tasks.MyAppTaskFactory;
+
+import java.util.Properties;
 
 /**
  * {@code CyActivator} is a class that is a starting point for OSGi bundles.
@@ -36,5 +42,13 @@ public class CyActivator extends AbstractCyActivator {
 	 */
 	@Override
 	public void start(BundleContext context) throws Exception {
+		CyApplicationManager applicationManager = getService(context,CyApplicationManager.class);
+		Properties props = new Properties();
+		props.put(ServiceProperties.PREFERRED_MENU,"Apps");
+		props.put(ServiceProperties.TITLE,"Hello World!");
+		TaskFactory factory = new MyAppTaskFactory();
+
+		//registers service with osgi
+		registerService(context,factory,TaskFactory.class,props);
 	}
 }
