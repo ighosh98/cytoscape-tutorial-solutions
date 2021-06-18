@@ -1,6 +1,8 @@
 package your.org.myapp.internal;
 
 import org.cytoscape.application.CyApplicationManager;
+import org.cytoscape.model.CyNetworkFactory;
+import org.cytoscape.model.CyNetworkManager;
 import org.cytoscape.service.util.AbstractCyActivator;
 import org.cytoscape.work.ServiceProperties;
 import org.cytoscape.work.TaskFactory;
@@ -42,11 +44,12 @@ public class CyActivator extends AbstractCyActivator {
 	 */
 	@Override
 	public void start(BundleContext context) throws Exception {
-		CyApplicationManager applicationManager = getService(context,CyApplicationManager.class);
+		CyNetworkFactory networkFactory = getService(context,CyNetworkFactory.class);
+		CyNetworkManager networkManager = getService(context,CyNetworkManager.class);
 		Properties props = new Properties();
 		props.put(ServiceProperties.PREFERRED_MENU,"Apps");
 		props.put(ServiceProperties.TITLE,"Hello World!");
-		TaskFactory factory = new MyAppTaskFactory();
+		TaskFactory factory = new MyAppTaskFactory(networkManager,networkFactory);
 
 		//registers service with osgi
 		registerService(context,factory,TaskFactory.class,props);
