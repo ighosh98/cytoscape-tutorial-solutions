@@ -25,7 +25,7 @@
     -->
 	<groupId>your.org</groupId>
 	<artifactId>MyApp</artifactId>
-	<version>1.1</version>
+	<version>1.2</version>
 
 	<!--
     "packaging" tells Maven what sort of thing you want to build.
@@ -148,12 +148,22 @@
 			<artifactId>work-api</artifactId>
 			<version>${cytoscape.api.version}</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.cytoscape/vizmap-api -->
+		<dependency>
+			<groupId>org.cytoscape</groupId>
+			<artifactId>vizmap-api</artifactId>
+			<version>${cytoscape.api.version}</version>
+		</dependency>
 		<!-- OSGi core API -->
 		<dependency>
 			<groupId>org.osgi</groupId>
 			<artifactId>org.osgi.core</artifactId>
 			<version>${osgi.api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cytoscape</groupId>
+			<artifactId>vizmap-api</artifactId>
+			<version>3.4.0</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -2,14 +2,18 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Created-By: Apache Maven Bundle Plugin
 Tool: Bnd-1.15.0
-Bnd-LastModified: 1624054669913
+Bnd-LastModified: 1624136251823
 Import-Package: org.cytoscape.application;version="[3.2,4)",org.cytoscap
- e.service.util;version="[3.2,4)",org.cytoscape.work;version="[3.2,4)",o
- rg.osgi.framework;version="[1.5,2)"
+ e.model;version="[3.2,4)",org.cytoscape.service.util;version="[3.2,4)",
+ org.cytoscape.view.model;version="[3.2,4)",org.cytoscape.view.presentat
+ ion.property;version="[3.2,4)",org.cytoscape.view.presentation.property
+ .values;version="[3.2,4)",org.cytoscape.view.vizmap;version="[3.4,4)",o
+ rg.cytoscape.view.vizmap.mappings;version="[3.4,4)",org.cytoscape.work;
+ version="[3.2,4)",org.osgi.framework;version="[1.5,2)"
 Bundle-Name: MyApp
 Bundle-Activator: your.org.myapp.internal.CyActivator
 Bundle-SymbolicName: your.org.MyApp
-Bundle-Version: 1.0
+Bundle-Version: 1.2
 Built-By: ighosh
 Build-Jdk: 11.0.11
 
