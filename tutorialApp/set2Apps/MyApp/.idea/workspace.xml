@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4407b4e0-9885-4f51-8024-7abca2c9ba98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MyApp/target/MyApp-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jars/MyApp-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_application_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_event_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_model_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_presentation_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_service_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_viewmodel_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_vizmap_api_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_cytoscape_work_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/libraries/Maven__org_osgi_org_osgi_core_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/MyApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/src/main/java/your/org/myapp/internal/CyActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/src/main/java/your/org/myapp/internal/tasks/MyAppTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/src/main/java/your/org/myapp/internal/tasks/MyAppTaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/target/classes/your/org/myapp/internal/CyActivator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/target/classes/your/org/myapp/internal/tasks/MyAppTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/MyApp/target/classes/your/org/myapp/internal/tasks/MyAppTaskFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/jars/MyApp-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../set1Apps/jars/MyApp-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_application_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_command_executor_api_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_event_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_model_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_presentation_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_service_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_viewmodel_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_vizmap_api_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cytoscape_work_api_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/your/org/myapp/internal/CyActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/your/org/myapp/internal/tasks/MyAppTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/your/org/myapp/internal/tasks/MyAppTaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/your/org/myapp/internal/CyActivator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/your/org/myapp/internal/tasks/MyAppTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/your/org/myapp/internal/tasks/MyAppTaskFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gProfiler" beforeDir="false" afterPath="$PROJECT_DIR$/gProfiler" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1slBYM3xTgiPeKKNLRBilwKLyGF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="your.org.myapp.internal.tasks" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4407b4e0-9885-4f51-8024-7abca2c9ba98" name="Default Changelist" comment="" />
+      <created>1621437342257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621437342257</updated>
+      <workItem from="1621437343490" duration="3212000" />
+      <workItem from="1624049606316" duration="4306000" />
+      <workItem from="1624083060662" duration="328000" />
+      <workItem from="1624085305324" duration="146000" />
+      <workItem from="1624085461431" duration="7715000" />
+      <workItem from="1624132540693" duration="199000" />
+      <workItem from="1624132767823" duration="4738000" />
+      <workItem from="1624176609284" duration="3565000" />
+      <workItem from="1624214391444" duration="599000" />
+      <workItem from="1624472519905" duration="6730000" />
+      <workItem from="1624482278771" duration="121000" />
+      <workItem from="1624482464826" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tutorial" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
