@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.15.0
+Bnd-LastModified: 1624479572369
+Import-Package: org.cytoscape.command;version="[3.4,4)",org.cytoscape.se
+ rvice.util;version="[3.2,4)",org.cytoscape.work;version="[3.2,4)",org.o
+ sgi.framework;version="[1.5,2)"
+Bundle-Name: MyApp
+Bundle-Activator: your.org.myapp.internal.CyActivator
+Bundle-SymbolicName: your.org.MyApp
+Bundle-Version: 1.3
+Built-By: ighosh
+Build-Jdk: 11.0.11
+
